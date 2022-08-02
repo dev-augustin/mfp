@@ -2,7 +2,7 @@ const { merge } = require("webpack-merge");
 const ModuleFedertionPlugin = require("webpack/lib/container/ModuleFederationPlugin");
 const commonConfig = require("./webpack.common");
 const packageJson = require("../package.json");
-const domain = process.env.PRODUCTion_DOMAIN;
+const domain = process.env.PRODUCTION_DOMAIN;
 
 const prodConfig = {
   mode: "production",
